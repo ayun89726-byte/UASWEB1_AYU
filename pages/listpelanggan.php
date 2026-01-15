@@ -71,7 +71,7 @@ while ($row = mysqli_fetch_assoc($data)) {
 <td><?= $row['no_hp']; ?></td>
 <td><?= $row['email']; ?></td>
 <td>
-<a href="dashboard.php?page=edit&id=<?= $row['id_pelanggan']; ?>" class="
+<a href="dashboard.php?page=edit_pelanggan&id=<?= $row['id_pelanggan']; ?>" class="
 btn btn-edit">Edit</a>
 <a href="dashboard.php?page=hapus&id=<?= $row['id_pelanggan']; ?>"
 class="btn btn-hapus"
