@@ -90,9 +90,15 @@ background: #a93226;
 </div>
 <label>nama pelanggan</label>
 <input type="text" name="id_pelanggan" placeholder="" required>
-</div>
 <div class="form-group">
      <label>alamat Pelanggan</label>
+<input type="text" name="kode_pelanggan" placeholder="" required>
+</div>
+<label>no_hp pelanggan</label>
+<input type="text" name="id_pelanggan" placeholder="" required>
+<div class="form-group">
+  </div>  
+     <label>email Pelanggan</label>
 <input type="text" name="kode_pelanggan" placeholder="" required>
 </div>
 <button type="submit" name="simpan" class="btn btn-tambah">Simpan</button>
