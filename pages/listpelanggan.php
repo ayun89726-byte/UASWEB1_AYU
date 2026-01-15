@@ -73,7 +73,7 @@ while ($row = mysqli_fetch_assoc($data)) {
 <td>
 <a href="dashboard.php?page=edit_pelanggan&id=<?= $row['id_pelanggan']; ?>" class="
 btn btn-edit">Edit</a>
-<a href="dashboard.php?page=hapus&id=<?= $row['id_pelanggan']; ?>"
+<a href="dashboard.php?page=hapus_pelanggan&id=<?= $row['id_pelanggan']; ?>"
 class="btn btn-hapus"
 onclick="return confirm('Yakin hapus data?')">
 Hapus

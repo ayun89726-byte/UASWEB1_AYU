@@ -7,7 +7,6 @@ $id = $_GET['id'];
 if (isset($_POST['update'])) {
     mysqli_query($conn, "
         UPDATE pelanggan SET
-            id_pelanggan='$_POST[id_pelanggan]',
             kode_pelanggan='$_POST[kode_pelanggan]',
             nama_pelanggan='$_POST[nama_pelanggan]',
             alamat='$_POST[alamat]',
