@@ -84,11 +84,11 @@ background: #a93226;
 </div>
 <div class="form-group">
     <label>id pelanggan</label>
-<input type="text" name="id_pelanggan" placeholder="" required>
+<input type="select" name="id_pelanggan" placeholder="" required>
 </div>
 <div class="form-group">
 <label>total harga</label>
-<select name="total_harga" required>
+<number name="total_harga" required>
 </div>
 <div class="form-group">
 <label>keterangan</label>
