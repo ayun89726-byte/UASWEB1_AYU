@@ -78,7 +78,7 @@ background: #a93226;
 }
 </style>
 <div class="card">
-<h3>tambah_produk</h3>
+<h3>Tambah Produk</h3>
 <form method="post">
 <div class="form-group">
 <label>Kode Barang</label>
